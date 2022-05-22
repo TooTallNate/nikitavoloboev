@@ -1,5 +1,5 @@
 interface Props {
-  activePage: string
+  activePage: string;
 }
 
 export default function Nav({ activePage }: Props) {
@@ -33,7 +33,7 @@ export default function Nav({ activePage }: Props) {
         <a class="nav-link" href="https://github.com/nikitavoloboev/ama">
           AMA
         </a>
-        {/* TODO: fix */}
+        {/* TODO: fix, solid start bug */}
         {/* <a class="nav-link" href="./cv.pdf">
           CV
         </a> */}
